@@ -1,0 +1,168 @@
+name: geoplotting
+channels:
+- conda-forge
+- defaults
+dependencies:
+- affine=2.0.0.post1=py35_0
+- boto3=1.4.2=py35_0
+- botocore=1.4.81=py35_0
+- ca-certificates=2017.1.23=0
+- cairo=1.14.6=4
+- cartopy=0.15.0=np112py35_0
+- certifi=2017.1.23=py35_0
+- click=6.7=py35_0
+- click-plugins=1.0.3=py35_0
+- cligj=0.4.0=py35_0
+- curl=7.52.1=0
+- cycler=0.10.0=py35_0
+- descartes=1.1.0=py35_0
+- docutils=0.12=py35_0
+- expat=2.1.0=2
+- fiona=1.7.2=np112py35_1
+- fontconfig=2.12.1=4
+- freetype=2.7=1
+- freexl=1.0.2=1
+- gdal=2.1.3=np112py35_1
+- geopandas=0.2.1=py35_3
+- geoplot=0.0.3=py35_0
+- geos=3.5.1=1
+- gettext=0.19.7=1
+- giflib=5.1.4=0
+- glib=2.51.0=2
+- harfbuzz=1.3.4=2
+- hdf4=4.2.12=0
+- hdf5=1.8.17=9
+- icu=58.1=0
+- jmespath=0.9.0=py35_0
+- jpeg=9b=0
+- json-c=0.12=0
+- kealib=1.4.6=3
+- libdap4=3.18.3=2
+- libffi=3.2.1=3
+- libiconv=1.14=4
+- libnetcdf=4.4.1.1=2
+- libpng=1.6.28=0
+- libpq=9.5.4=3
+- libspatialindex=1.8.5=1
+- libspatialite=4.3.0a=14
+- libtiff=4.0.6=7
+- libxml2=2.9.4=4
+- libxslt=1.1.29=3
+- lxml=3.7.2=py35_1
+- matplotlib=1.5.3=np112py35_7
+- munch=2.1.0=py35_0
+- ncurses=5.9=10
+- olefile=0.44=py35_0
+- openjpeg=2.1.2=2
+- openssl=1.0.2h=3
+- owslib=0.14.0=py35_0
+- pandas=0.19.2=np112py35_1
+- pango=1.40.3=3
+- pcre=8.39=0
+- pillow=4.0.0=py35_2
+- pip=9.0.1=py35_0
+- pixman=0.34.0=0
+- proj4=4.9.3=2
+- psycopg2=2.6.2=py35_1
+- pyepsg=0.3.1=py35_0
+- pyparsing=2.1.10=py35_0
+- pyproj=1.9.5.1=py35_0
+- pyqt=4.11.4=py35_2
+- pysal=1.13.0=py35_0
+- pyshp=1.2.10=py35_0
+- python=3.5.3=1
+- python-dateutil=2.6.0=py35_0
+- pytz=2016.10=py35_0
+- qt=4.8.7=7
+- rasterio=1.0a5=np112py35_1
+- readline=6.2=0
+- requests=2.13.0=py35_0
+- rtree=0.8.3=py35_0
+- s3transfer=0.1.9=py35_0
+- setuptools=33.1.0=py35_0
+- shapely=1.5.17=np112py35_2
+- sip=4.18=py35_1
+- six=1.10.0=py35_1
+- snuggs=1.4.1=py35_0
+- sqlalchemy=1.1.5=py35_0
+- sqlite=3.13.0=1
+- tk=8.5.19=1
+- tornado=4.4.2=py35_0
+- wheel=0.29.0=py35_0
+- xerces-c=3.1.4=3
+- xz=5.2.2=0
+- zlib=1.2.11=0
+- decorator=4.0.11=py35_0
+- entrypoints=0.2.2=py35_0
+- ipykernel=4.5.2=py35_0
+- ipython=5.1.0=py35_0
+- ipython_genutils=0.1.0=py35_0
+- ipywidgets=5.2.2=py35_1
+- jinja2=2.9.4=py35_0
+- jsonschema=2.5.1=py35_0
+- jupyter=1.0.0=py35_3
+- jupyter_client=4.4.0=py35_0
+- jupyter_console=5.0.0=py35_0
+- jupyter_core=4.2.1=py35_0
+- libgfortran=3.0.0=1
+- libsodium=1.0.10=0
+- markupsafe=0.23=py35_2
+- mistune=0.7.3=py35_0
+- mkl=2017.0.1=0
+- nbconvert=4.2.0=py35_0
+- nbformat=4.2.0=py35_0
+- networkx=1.11=py35_0
+- notebook=4.3.1=py35_0
+- numpy=1.12.0=py35_0
+- path.py=10.0=py35_0
+- pexpect=4.2.1=py35_0
+- pickleshare=0.7.4=py35_0
+- prompt_toolkit=1.0.9=py35_0
+- ptyprocess=0.5.1=py35_0
+- pygments=2.1.3=py35_0
+- pyzmq=16.0.2=py35_0
+- qtconsole=4.2.1=py35_0
+- scipy=0.18.1=np112py35_1
+- seaborn=0.7.1=py35_0
+- simplegeneric=0.8.1=py35_1
+- terminado=0.6=py35_0
+- traitlets=4.3.1=py35_0
+- util-linux=2.21=0
+- wcwidth=0.1.7=py35_0
+- widgetsnbextension=1.2.6=py35_0
+- zeromq=4.1.5=0
+- pip:
+  - PyYAML==3.12
+  - apipkg==1.4
+  - beautifulsoup4==4.5.1
+  - bleach==1.5.0
+  - chameleon==2.25
+  - check-manifest==0.34
+  - defusedxml==0.4.1
+  - devpi==2.2.0
+  - devpi-client==2.7.0
+  - devpi-common==3.0.1
+  - devpi-server==4.1.1
+  - devpi-web==3.1.1
+  - execnet==1.4.1
+  - html5lib==0.9999999
+  - ipython-genutils==0.1.0
+  - itsdangerous==0.24
+  - jupyter-client==4.4.0
+  - jupyter-console==5.0.0
+  - jupyter-core==4.2.1
+  - pastedeploy==1.5.2
+  - pkginfo==1.4.1
+  - prompt-toolkit==1.0.9
+  - pyramid==1.7.3
+  - pyramid-chameleon==0.3
+  - readme-renderer==0.7.0
+  - repoze.lru==0.6
+  - translationstring==1.3
+  - venusian==1.0
+  - waitress==0.9.0
+  - webob==1.6.3
+  - whoosh==2.7.4
+  - zope.deprecation==4.2.0
+  - zope.interface==4.3.2
+prefix: /home/joshainglis/anaconda3/envs/geoplotting

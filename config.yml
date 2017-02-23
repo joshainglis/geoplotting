@@ -1,0 +1,32 @@
+---
+env:
+  data: /home/joshainglis/other_projects/papers/isea_interviz/data/ISEA/Full_VS/sl_-85/
+  scratch: /home/joshainglis/other_projects/papers/isea_interviz/data/ISEA/Full_VS/scratch
+raw_files:
+  islands:
+    input: islands.shp
+    output: islands_fixed.shp
+  viewpoints:
+    input: gridded_viewpoints.shp
+    output: gridded_viewpoints_fixed.shp
+  split_islands:
+    input: split_islands.shp
+    output: split_islands_fixed.shp
+  viewsheds:
+    rasters:
+      input_folder: viewsheds
+      regex: ^viewshed_(\d+)$
+      viewsheds_per_file: 32
+      overflow: 31
+generated_files:
+  island_viewpoints:
+    output: island_viewpoints.shp
+  viewsheds:
+    polygons:
+      raw_output: viewshed_polygons.shp
+      fixed_output: viewshed_polygons_fixed.shp
+  islands_viewsheds_joined:
+    raw_output: poly_viewsheds_joined.shp
+    fixed_output: poly_viewsheds_joined.shp
+overwrite: false
+
